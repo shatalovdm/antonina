@@ -1,0 +1,43 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+	background-color: #E76A49;
+	height: 300px;
+	text-align: center;
+	justify-content: center;
+	display: block;
+	padding: 60px 0px;
+}
+
+.title {
+	padding: 0px 160px;
+}
+
+.title h1 {
+	color: #962725;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.title p {
+	font-size: 1.5em;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.code-example {
+	background-color: #FFCE91;
+	tab-size: 1;
+	line-height: 1.5;
+}
+
+#grid .example {
+	text-align: center;
+	border: 2px #962725 solid;
+	margin: 2px 0; 
+}

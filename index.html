@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>Antonina</title>
+	<link rel="stylesheet" href="dist/main.min.css">
+	<link rel="stylesheet" href="example/antonina.css">
 </head>
 <body>
-	
+	<header>
+		<div class="row title">
+			<h1>Antonina</h1>
+			<p>
+				Simple framework for front-end development powered by Sass. It includes responsive grid system and styling for buttons and tables.
+			</p>
+		</div>
+	</header>
+	<main>
+		<section class="container-1200">
+			<div id="grid">
+				<h2>Grid</h2>
+				<p>Responsive containers have the maximum width of 800px, 1000px, and 1200px.</p>
+				<pre class="language-html">
+					<div class="language-html code-example">
+						<span><span><</span><span>div class="container-1200"></span>1200px<span><</span>/div></span>
+						<span><span><</span><span>div class="container-1000"></span>1000px<span><</span>/div></span>
+						<span><span><</span><span>div class="container-800"></span>800px<span><</span>/div></span>
+					</div>
+				</pre>
+				<div class="container-1200 example"><h4>1200 px</h4></div>	
+				<div class="container-1000 example"><h4>1000 px</h4></div>	
+				<div class="container-800 example"><h4>800 px</h4></div>	
+				<p>All columns are named in accordance with their screen width. Note that the columns must be inserted into either row or flex-row to get the full responsiveness. </p>
+				<code class="language-html">
+				</code>
+				<div class="flex-row">
+					<div class="col-17 example"><h4>16.66%</h4></div>
+					<div class="col-83 example"><h4>83.33%</h4></div>
+				</div>
+				<div class="flex-row">
+					<div class="col-33 example"><h4>33.33%</h4></div>
+					<div class="col-67 example"><h4>66.66%</h4></div>
+				</div>
+				<div class="flex-row">
+					<div class="col-50 example"><h4>50%</h4></div>
+					<div class="col-50 example"><h4>50%</h4></div>
+				</div>
+
+			</div>
+		</section>
+	</main>
 </body>
 </html>

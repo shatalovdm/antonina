@@ -1,11 +1,20 @@
-.grid {
+.container-1200 {
     margin: 0 auto;
     max-width: 1200px;
 }
 
+.container-1000 {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container-800 {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 .row {
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .flex-row {
@@ -18,7 +27,7 @@
 }
 
 .col-17 {
-    width: 16.6%;
+    width: 16.66%;
 }
 
 .col-25 {
