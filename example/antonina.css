@@ -5,9 +5,12 @@
     box-sizing: border-box;
 }
 
+
+
+
 header {
 	background-color: #E76A49;
-	height: 300px;
+	height: 400px;
 	text-align: center;
 	justify-content: center;
 	display: block;
@@ -18,26 +21,59 @@ header {
 	padding: 0px 160px;
 }
 
-.title h1 {
-	color: #962725;
-	font-size: 3em;
-	text-transform: uppercase;
+h1, h2, h3, h4, p {
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
-.title p {
+h1 {
+	color: #a33c3a;
+	font-size: 5em;
+	text-transform: uppercase;
+   	text-shadow: 1px 1px #962725, 
+                2px 2px #962725, 
+                3px 3px #962725,
+                4px 4px #962725;
+}
+
+h3 {	
+	text-transform: uppercase;
 	font-size: 1.5em;
 	color: #ffffff;
-	text-transform: uppercase;
 }
 
 .code-example {
-	background-color: #FFCE91;
+	background-color: #ffe4bc;
 	tab-size: 1;
 	line-height: 1.5;
+	display: flex;
+	border-radius: 16px 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+}
+
+code {
+	align-content: center;
+	font-family: Monaco, monospace;
+	font-size: 16px;
+}
+.syntax {
+	color: #E76A49;
+}
+.class {
+	color: #962725;
 }
 
 #grid .example {
 	text-align: center;
 	border: 2px #962725 solid;
 	margin: 2px 0; 
+}
+
+@media screen and (max-width: 606px) {
+	h1 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1em;
+	}
 }
