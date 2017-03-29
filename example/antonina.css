@@ -5,12 +5,9 @@
     box-sizing: border-box;
 }
 
-
-
-
 header {
 	background-color: #E76A49;
-	height: 400px;
+	height: 450px;
 	text-align: center;
 	justify-content: center;
 	display: block;
@@ -19,6 +16,31 @@ header {
 
 .title {
 	padding: 0px 160px;
+}
+
+.download-button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #ffffff; 
+    background-color: transparent; 
+    border: 2px solid #962725;
+    border-radius: 16px 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+}
+
+.download-button:hover {
+    background-color: #962725;
+    color: white;
 }
 
 h1, h2, h3, h4, p {
